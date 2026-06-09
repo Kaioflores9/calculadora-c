@@ -1,8 +1,6 @@
 #include <assert.h>
-
-
-int multiplicar(int a, int b);
-int dividir(int a, int b);
+#include "function_dividir.c"
+#include "function_multiplicar.c"
 
 int main() {
     assert(multiplicar(2, 0) == 0);
